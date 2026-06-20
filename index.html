@@ -933,7 +933,20 @@
 
     // WhatsApp
     const PHONE = "5547996720706";
-    const MSG   = encodeURIComponent("Olá, Hendler Hub! Gostaria de analisar minha ideia para um projeto cultural.");
+    const MSG   = encodeURIComponent(`Olá, Júlia! Gostaria de informações sobre a elaboração de projetos culturais.
+
+Nome:
+Cidade:
+Edital de interesse:
+Área cultural:
+Você pretende inscrever como:
+( ) Pessoa Física
+( ) MEI
+( ) Associação/Empresa
+( ) Ainda não sei
+
+Descreva brevemente sua ideia de projeto:
+`);
     const WPP   = `https://wa.me/${PHONE}?text=${MSG}`;
     document.querySelectorAll('a[href="#wpp"]').forEach(a => {
         a.href = WPP;
