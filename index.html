@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hendler Hub | Escrita de Projetos para Editais Culturais (Aldir Blanc, Rouanet) | SC</title>
+    <meta name="description" content="Escrevemos seu projeto cultural para editais como Aldir Blanc e Rouanet em Santa Catarina e em todo o Brasil. Análise gratuita da sua ideia, sem compromisso. Fale agora pelo WhatsApp.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Hendler Hub Projetos Culturais">
+    <link rel="canonical" href="https://projetosculturais.vercel.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hendler Hub Projetos Culturais">
+    <meta property="og:title" content="Hendler Hub | Escrita de Projetos para Editais Culturais">
+    <meta property="og:description" content="Sua ideia cultural pode virar um projeto para captar recursos. Escrevemos o projeto completo para você concorrer a editais como Aldir Blanc e Rouanet.">
+    <meta property="og:url" content="https://projetosculturais.vercel.app/">
+    <meta property="og:image" content="https://projetosculturais.vercel.app/og-image.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hendler Hub | Escrita de Projetos para Editais Culturais">
+    <meta name="twitter:description" content="Análise gratuita pelo WhatsApp. Editais Aldir Blanc e Rouanet.">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23FF2A54'/%3E%3Cstop offset='35%25' stop-color='%23FF8C00'/%3E%3Cstop offset='58%25' stop-color='%23FFD000'/%3E%3Cstop offset='80%25' stop-color='%2300B4D8'/%3E%3Cstop offset='100%25' stop-color='%236D28D9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='50' cy='50' r='45' fill='url(%23g)'/%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Hendler Hub Projetos Culturais",
+      "description": "Consultoria especializada em estruturação e escrita de projetos culturais para editais públicos como Lei Aldir Blanc e Rouanet.",
+      "url": "https://projetosculturais.vercel.app/",
+      "areaServed": [{"@type":"State","name":"Santa Catarina"},{"@type":"Country","name":"Brasil"}],
+      "address": {"@type":"PostalAddress","addressLocality":"Três Barras","addressRegion":"SC","addressCountry":"BR"},
+      "telephone": "+5547996720706",
+      "serviceType": "Escrita e estruturação de projetos culturais para editais públicos"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org","@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"Preciso ter o projeto escrito para começar?","acceptedAnswer":{"@type":"Answer","text":"Não. Basta ter uma ideia. A Hendler Hub transforma essa ideia em um projeto técnico completo."}},
+        {"@type":"Question","name":"Vocês garantem aprovação?","acceptedAnswer":{"@type":"Answer","text":"Não. A aprovação depende dos critérios de cada comissão. Garantimos que o projeto estará correto, completo e competitivo."}},
+        {"@type":"Question","name":"Atende editais fora de SC?","acceptedAnswer":{"@type":"Answer","text":"Sim. Atendemos editais públicos e privados em todo o Brasil."}},
+        {"@type":"Question","name":"Qual é o valor?","acceptedAnswer":{"@type":"Answer","text":"Varia conforme a complexidade. A análise inicial é gratuita e o orçamento é apresentado sem compromisso."}},
+        {"@type":"Question","name":"Quanto tempo até receber o projeto?","acceptedAnswer":{"@type":"Answer","text":"O prazo é combinado no primeiro contato, conforme a proposta e o prazo do edital."}}
+      ]
+    }
+    </script>
+
+    <style>
+        /* ── TOKENS ── */
+        :root {
+            --cream:   #F7F3EC;
+            --navy:    #0B1B33;
+            --blue:    #1AADE3;
+            --green:   #7CB342;
+            --pink:    #EC1771;
+            --yellow:  #FFC107;
+            --white:   #FFFFFF;
+            --gray-lt: #F5F5F5;
+            --gray-bd: #E5E7EB;
+            --txt:     #444444;
+            --wpp:     #25D366;
+            --grad: linear-gradient(120deg, #FF2A54 0%, #FF8C00 30%, #FFD000 55%, #00B4D8 80%, #6D28D9 100%);
+
+            --font-head: 'Montserrat', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        /* ── RESET ── */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--font-body); color: var(--txt); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+        h1,h2,h3,h4 { font-family: var(--font-head); color: var(--navy); line-height: 1.15; }
+        h1 { font-size: clamp(32px, 4.5vw, 54px); font-weight: 900; letter-spacing: -1.5px; }
+        h2 { font-size: clamp(24px, 3vw, 36px); font-weight: 800; letter-spacing: -0.5px; }
+        h3 { font-size: 17px; font-weight: 700; }
+        p  { font-size: 15px; color: var(--txt); line-height: 1.7; }
+        a  { text-decoration: none; color: inherit; }
+        img { max-width: 100%; display: block; }
+
+        .container { width: 90%; max-width: 1100px; margin: 0 auto; }
+        .section-pad { padding: 80px 0; }
+        .section-header { text-align: center; margin-bottom: 48px; }
+        .section-header p { max-width: 520px; margin: 10px auto 0; color: var(--txt); }
+
+        /* grad text */
+        .grad-text {
+            background: var(--grad);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ── BOTÕES ── */
+        .btn {
+            display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+            font-family: var(--font-head); font-weight: 800; font-size: 0.92rem;
+            padding: 15px 30px; border-radius: 8px; border: none;
+            cursor: pointer; transition: background .25s, transform .2s, box-shadow .2s;
+            text-transform: uppercase; letter-spacing: 0.4px; white-space: nowrap;
+        }
+        .btn-wpp { background: var(--wpp); color: var(--white); box-shadow: 0 4px 14px rgba(37,211,102,.3); }
+        .btn-wpp:hover { background: #1dae55; transform: translateY(-2px); box-shadow: 0 6px 18px rgba(37,211,102,.4); }
+        .btn-blue { background: var(--blue); color: var(--white); }
+        .btn-blue:hover { background: #139cc9; transform: translateY(-2px); }
+
+        /* ── HEADER ── */
+        header {
+            background: var(--white);
+            box-shadow: 0 2px 14px rgba(0,0,0,.06);
+            position: sticky; top: 0; z-index: 1000;
+            padding: 14px 0;
+        }
+        .header-inner {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            align-items: center; gap: 32px;
+        }
+        .logo {
+            display: flex; align-items: center; gap: 4px;
+            font-family: var(--font-head); font-weight: 900; font-size: 22px; letter-spacing: -0.5px;
+        }
+        .logo-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--grad); background: var(--pink); flex-shrink: 0; margin-left: 2px; }
+        .nav-links { justify-self: center; display: flex; gap: 28px; align-items: center; }
+        .nav-links a { font-family: var(--font-head); font-weight: 700; font-size: 0.82rem; color: var(--navy); text-transform: uppercase; letter-spacing: 0.3px; transition: color .2s; }
+        .nav-links a:hover { color: var(--blue); }
+        .mobile-menu-btn { display: none; font-size: 26px; color: var(--navy); cursor: pointer; background: none; border: none; }
+
+        /* ── HERO ── */
+        .hero {
+            background: linear-gradient(to right, rgba(11,27,51,.88) 0%, rgba(11,27,51,.6) 55%, rgba(11,27,51,.2) 100%),
+                        url('https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat;
+            padding: 110px 0 90px;
+            color: var(--white);
+        }
+        .hero-eyebrow {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: rgba(26,173,227,.25); border: 1px solid rgba(26,173,227,.5);
+            padding: 7px 16px; border-radius: 6px;
+            font-family: var(--font-head); font-size: 12px; font-weight: 700; letter-spacing: 0.5px;
+            color: var(--blue); text-transform: uppercase;
+            margin-bottom: 28px;
+        }
+        .hero-eyebrow .live { width: 7px; height: 7px; background: var(--wpp); border-radius: 50%; flex-shrink: 0; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%,100%{opacity:1}50%{opacity:.4} }
+
+        .hero h1 { color: var(--white); max-width: 680px; margin-bottom: 22px; text-transform: uppercase; }
+        .hero h1 .hl { color: var(--yellow); }
+        .hero-sub { font-size: 1.1rem; color: rgba(255,255,255,.82); max-width: 560px; margin-bottom: 36px; }
+        .hero-cta-group { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+        .hero-note { font-size: 13px; color: rgba(255,255,255,.55); }
+
+        /* Faixa de editais */
+        .editais-bar {
+            background: var(--blue); padding: 14px 0;
+        }
+        .editais-bar-inner {
+            display: flex; align-items: center; justify-content: center; gap: 12px;
+            flex-wrap: wrap;
+        }
+        .editais-bar-inner span {
+            font-family: var(--font-head); font-size: 12px; font-weight: 800;
+            color: var(--white); text-transform: uppercase; letter-spacing: 0.5px;
+        }
+        .editais-bar-inner .sep { color: var(--yellow); }
+
+        /* ── DIFERENCIAIS (features strip) ── */
+        .features { background: var(--navy); padding: 50px 0; border-bottom: 1px solid rgba(255,255,255,.08); }
+        .features-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 24px; }
+        .feat-item { text-align: center; }
+        .feat-circle {
+            width: 68px; height: 68px; border-radius: 50%;
+            border: 2px solid rgba(255,255,255,.2);
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 14px; font-size: 26px;
+            background: rgba(255,255,255,.07);
+            transition: background .25s, transform .25s, border-color .25s;
+        }
+        .feat-item:nth-child(1) .feat-circle { border-color: var(--pink); }
+        .feat-item:nth-child(2) .feat-circle { border-color: var(--blue); }
+        .feat-item:nth-child(3) .feat-circle { border-color: var(--yellow); }
+        .feat-item:nth-child(4) .feat-circle { border-color: var(--green); }
+        .feat-item:nth-child(1):hover .feat-circle { background: var(--pink); transform: scale(1.06); }
+        .feat-item:nth-child(2):hover .feat-circle { background: var(--blue); transform: scale(1.06); }
+        .feat-item:nth-child(3):hover .feat-circle { background: var(--yellow); transform: scale(1.06); }
+        .feat-item:nth-child(4):hover .feat-circle { background: var(--green); transform: scale(1.06); }
+        .feat-item h4 { font-size: 0.9rem; text-transform: uppercase; color: rgba(255,255,255,.85); }
+
+        /* ── EDITAIS / URGÊNCIA ── */
+        .editais-sec { background: var(--cream); }
+
+        /* timer */
+        .timer-wrap { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+        .t-box {
+            background: var(--white); border: 1px solid var(--gray-bd); border-radius: 8px;
+            padding: 14px 16px; min-width: 78px; text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,.06);
+        }
+        .t-box span { display: block; font-family: var(--font-head); font-size: 28px; font-weight: 900; color: var(--pink); line-height: 1; }
+        .t-box small { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--navy); opacity: .55; font-weight: 700; margin-top: 4px; }
+        .timer-label { text-align: center; font-size: 13px; color: var(--txt); opacity: .6; margin: 8px 0 44px; }
+
+        .cards-editais { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px,1fr)); gap: 20px; margin-bottom: 24px; }
+        .card-edital {
+            background: var(--white); border-radius: 10px;
+            border: 1px solid var(--gray-bd);
+            padding: 24px; display: flex; flex-direction: column;
+            box-shadow: 0 2px 10px rgba(0,0,0,.05);
+            transition: transform .2s, box-shadow .2s;
+        }
+        .card-edital:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,.09); }
+        .card-edital-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 14px; }
+        .card-edital h3 { font-size: 15px; color: var(--navy); margin-bottom: 2px; }
+        .card-edital .scope { font-size: 12px; color: var(--txt); opacity: .7; }
+        .badge { flex-shrink: 0; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; background: var(--pink); color: var(--white); display: inline-flex; align-items: center; gap: 4px; }
+
+        .valor { font-family: var(--font-head); font-size: 22px; font-weight: 900; color: var(--green); line-height: 1; margin-bottom: 3px; }
+        .valor-detalhe { font-size: 12px; color: var(--txt); opacity: .6; margin-bottom: 16px; }
+
+        .mini-table { width: 100%; border-collapse: collapse; }
+        .mini-table th { font-size: 10px; text-transform: uppercase; letter-spacing: .5px; font-weight: 700; color: var(--navy); opacity: .6; background: var(--gray-lt); padding: 7px 10px; text-align: left; }
+        .mini-table td { font-size: 13px; padding: 8px 10px; border-bottom: 1px solid var(--gray-lt); color: var(--navy); opacity: .8; }
+        .mini-table tr:last-child td { border-bottom: none; }
+
+        .eixos-list { display: flex; flex-direction: column; gap: 0; }
+        .eixo-item { padding: 12px 0; border-bottom: 1px dashed rgba(11,27,51,.12); display: flex; flex-direction: column; gap: 4px; }
+        .eixo-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .eixo-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+        .eixo-nome { font-size: 13px; font-weight: 700; color: var(--navy); }
+        .eixo-val { font-size: 13px; color: var(--navy); opacity: .8; white-space: nowrap; }
+        .eixo-val strong { color: var(--green); font-weight: 700; }
+        .eixo-quem { font-size: 12px; color: var(--txt); opacity: .7; line-height: 1.5; display: flex; gap: 6px; }
+
+        .tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+        .t-tag { font-size: 12px; padding: 3px 10px; border-radius: 6px; background: var(--gray-lt); color: var(--navy); border: 1px solid var(--gray-bd); font-weight: 600; }
+        .t-tag:nth-child(1) { background: rgba(236,23,113,.1); border-color: rgba(236,23,113,.3); color: var(--pink); }
+        .t-tag:nth-child(2) { background: rgba(26,173,227,.1); border-color: rgba(26,173,227,.3); color: #0e8ab8; }
+        .t-tag:nth-child(3) { background: rgba(255,193,7,.15); border-color: rgba(255,193,7,.4); color: #a07800; }
+        .t-tag:nth-child(4) { background: rgba(124,179,66,.12); border-color: rgba(124,179,66,.35); color: #567a28; }
+        .t-tag:nth-child(5) { background: rgba(109,40,217,.1); border-color: rgba(109,40,217,.3); color: #5b21b6; }
+        .t-tag:nth-child(6) { background: rgba(255,140,0,.12); border-color: rgba(255,140,0,.35); color: #b35e00; }
+
+        .card-edital-footer { margin-top: auto; padding-top: 16px; border-top: 1px dashed rgba(11,27,51,.12); display: flex; flex-direction: column; gap: 8px; }
+        .cef-item { display: flex; align-items: flex-start; gap: 8px; font-size: 12.5px; color: var(--txt); line-height: 1.5; }
+
+        .card-destaque {
+            background: var(--yellow); border-radius: 10px; padding: 28px 32px;
+            text-align: center; margin-bottom: 20px;
+        }
+        .card-destaque h3 { font-size: 17px; margin-bottom: 8px; color: var(--navy); }
+        .card-destaque p { font-size: 14px; margin-bottom: 20px; color: var(--navy); opacity: .8; }
+
+        .aviso-box {
+            display: flex; align-items: flex-start; gap: 12px;
+            background: var(--white); border: 1px solid var(--gray-bd); border-left: 4px solid var(--blue);
+            border-radius: 8px; padding: 16px 20px;
+        }
+        .aviso-box p { font-size: 13px; color: var(--txt); line-height: 1.6; margin: 0; }
+
+        /* ── COMO FUNCIONA ── */
+        .como { background: var(--navy); }
+        .como .section-header h2 { color: var(--white); }
+        .como .section-header p { color: rgba(255,255,255,.55); }
+        .steps-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 0; border: 1px solid rgba(255,255,255,.12); border-radius: 10px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,.2); margin-bottom: 36px; }
+        .step { padding: 28px 18px; text-align: center; border-right: 1px solid rgba(255,255,255,.1); background: rgba(255,255,255,.04); transition: background .2s; }
+        .step:last-child { border-right: none; }
+        .step:nth-child(1):hover { background: rgba(236,23,113,.25); }
+        .step:nth-child(2):hover { background: rgba(26,173,227,.25); }
+        .step:nth-child(3):hover { background: rgba(255,193,7,.2); }
+        .step:nth-child(4):hover { background: rgba(124,179,66,.25); }
+        .step-icon { font-size: 28px; margin-bottom: 12px; }
+        .step-n { font-family: var(--font-head); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: var(--pink); margin-bottom: 8px; }
+        .step:nth-child(2) .step-n { color: var(--blue); }
+        .step:nth-child(3) .step-n { color: var(--yellow); }
+        .step:nth-child(4) .step-n { color: var(--green); }
+        .step p { font-size: 13px; font-weight: 600; color: rgba(255,255,255,.8); line-height: 1.4; }
+        .como-inner { max-width: 640px; margin: 0 auto; text-align: center; }
+
+        /* ── FAQ ── */
+        .faq { background: var(--white); }
+        .faq-item { background: var(--white); border: 1px solid var(--gray-bd); border-radius: 8px; overflow: hidden; margin-bottom: 8px; transition: box-shadow .2s, border-color .2s; }
+        .faq-item.active { box-shadow: 0 2px 12px rgba(0,0,0,.08); border-color: var(--blue); border-left: 3px solid var(--pink); }
+        .faq-question {
+            display: flex; align-items: center; justify-content: space-between; gap: 12px;
+            padding: 18px 22px; cursor: pointer;
+            font-family: var(--font-head); font-size: 14px; font-weight: 700; color: var(--navy);
+            user-select: none;
+        }
+        .faq-question:hover { color: var(--blue); }
+        .faq-question i { flex-shrink: 0; color: var(--pink); transition: transform .25s; }
+        .faq-item.active .faq-question i { transform: rotate(180deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
+        .faq-answer-inner { padding: 0 22px 18px; font-size: 14px; color: var(--txt); line-height: 1.7; }
+        .faq-item.active .faq-answer { max-height: 240px; }
+
+        /* ── CTA FINAL ── */
+        .cta-final {
+            background: var(--navy); padding: 96px 0;
+            position: relative; overflow: hidden;
+        }
+        .cta-final::before { content: ''; position: absolute; top: -60px; right: -60px; width: 220px; height: 220px; background: var(--pink); opacity: .85; border-radius: 0 0 999px 0; pointer-events: none; }
+        .cta-final::after  { content: ''; position: absolute; bottom: -70px; left: -50px; width: 200px; height: 200px; background: var(--blue); opacity: .8; border-radius: 999px 0 0 0; pointer-events: none; }
+        .cta-wrap { position: relative; z-index: 1; max-width: 540px; margin: 0 auto; text-align: center; }
+        .cta-wrap h2 { color: var(--white); margin-bottom: 12px; }
+        .cta-wrap p  { color: rgba(255,255,255,.6); margin-bottom: 32px; }
+        .cta-sub { margin-top: 18px; font-size: 13px; color: rgba(255,255,255,.4); }
+
+        /* ── FOOTER ── */
+        footer { background: var(--navy); border-top: 1px solid rgba(255,255,255,.08); padding: 56px 0 32px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-col h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,.5); font-weight: 700; margin-bottom: 16px; }
+        .footer-col p  { font-size: 13px; color: rgba(255,255,255,.5); line-height: 1.7; margin-bottom: 6px; display: flex; align-items: flex-start; gap: 8px; }
+        .footer-col p i { color: var(--blue); flex-shrink: 0; margin-top: 2px; }
+        .foot-logo { font-family: var(--font-head); font-weight: 900; font-size: 20px; letter-spacing: -.5px; display: inline-flex; align-items: center; gap: 4px; margin-bottom: 14px; }
+        .foot-desc { font-size: 13px; color: rgba(255,255,255,.45); line-height: 1.7; max-width: 280px; margin-bottom: 16px; }
+        .grad-badge {
+            display: inline-block; padding: 5px 14px; border-radius: 20px;
+            background: var(--grad); font-family: var(--font-head);
+            font-size: 11px; font-weight: 800; color: var(--white); text-transform: uppercase; letter-spacing: .5px;
+        }
+        .social-links { display: flex; gap: 10px; margin-top: 4px; }
+        .social-links a {
+            width: 38px; height: 38px; border-radius: 8px; border: 1px solid rgba(255,255,255,.15);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 16px; color: rgba(255,255,255,.6);
+            transition: background .2s, color .2s;
+        }
+        .social-links a:hover { background: var(--blue); color: var(--white); border-color: var(--blue); }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,.08); padding-top: 24px; text-align: center; }
+        .footer-bottom p { font-size: 12px; color: rgba(255,255,255,.3); margin-bottom: 4px; }
+        .footer-bottom a { color: var(--blue); text-decoration: underline; }
+
+        /* ── FLOAT WPP (desktop) ── */
+        .wpp-float {
+            position: fixed; bottom: 24px; right: 24px;
+            width: 56px; height: 56px; border-radius: 50%;
+            background: var(--wpp);
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 6px 20px rgba(37,211,102,.5);
+            z-index: 300; transition: transform .2s;
+        }
+        .wpp-float:hover { transform: translateY(-2px); }
+        .wpp-float svg { width: 26px; height: 26px; fill: white; }
+
+        /* ── MOBILE CTA BAR ── */
+        .mobile-cta-bar {
+            display: none;
+            position: fixed; bottom: 0; left: 0; right: 0; z-index: 299;
+            background: var(--white); border-top: 1px solid var(--gray-bd);
+            padding: 12px 16px; box-shadow: 0 -4px 14px rgba(0,0,0,.1);
+        }
+        .mobile-cta-bar .btn { width: 100%; justify-content: center; }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 992px) {
+            .nav-links { display: none; }
+            .mobile-menu-btn { display: block; }
+            .header-inner { grid-template-columns: 1fr auto; }
+            .nav-links.open {
+                display: flex; flex-direction: column; gap: 0;
+                position: absolute; top: 60px; left: 0; right: 0;
+                background: var(--white); padding: 16px 20px;
+                box-shadow: 0 10px 20px rgba(0,0,0,.08); z-index: 999;
+            }
+            .nav-links.open a { padding: 12px 0; border-bottom: 1px solid var(--gray-bd); }
+            .features-grid { grid-template-columns: repeat(2,1fr); }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (max-width: 680px) {
+            .section-pad { padding: 60px 0; }
+            .hero { padding: 80px 0 70px; }
+            .steps-grid { grid-template-columns: 1fr 1fr; }
+            .step:nth-child(2) { border-right: none; }
+            .step:nth-child(3) { border-right: 1px solid var(--gray-bd); border-top: 1px solid var(--gray-bd); }
+            .step:nth-child(4) { border-top: 1px solid var(--gray-bd); border-right: none; }
+            .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+            .wpp-float { display: none; }
+            .mobile-cta-bar { display: block; }
+            body { padding-bottom: 80px; }
+        }
+
+        @media (max-width: 420px) {
+            .steps-grid { grid-template-columns: 1fr; }
+            .step { border-right: none !important; border-top: 1px solid var(--gray-bd); }
+            .step:first-child { border-top: none; }
+            .features-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (prefers-reduced-motion: reduce) { *,*::before,*::after { transition: none !important; animation: none !important; } }
+    </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="container">
+        <div class="header-inner">
+            <a href="#" class="logo">
+                <span class="grad-text">Hendler</span><span style="color:var(--navy);">Hub</span><span class="logo-dot"></span>
+            </a>
+            <nav class="nav-links" id="navLinks" aria-label="Navegação principal">
+                <a href="#editais">Editais</a>
+                <a href="#como">Como funciona</a>
+                <a href="#faq">Dúvidas</a>
+            </nav>
+            <div style="display:flex;align-items:center;gap:12px;">
+                <a href="#wpp" class="btn btn-wpp" style="padding:11px 22px;font-size:.8rem;">Falar no WhatsApp</a>
+                <button class="mobile-menu-btn" id="menuBtn" aria-label="Menu">&#9776;</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-eyebrow">
+            <span class="live"></span>
+            <span id="heroPillText">Edital aberto em SC — encerra 13 de julho</span>
+        </div>
+        <h1><span style="color:var(--yellow);">Sua ideia cultural</span> pode virar um projeto para <span style="color:var(--pink);text-decoration:underline;text-decoration-color:rgba(236,23,113,.5);text-underline-offset:6px;">captar recursos</span>.</h1>
+        <p class="hero-sub">Você tem um show, uma oficina, uma exposição? Escrevemos o projeto completo para você concorrer a editais como Aldir Blanc e Rouanet.</p>
+        <div class="hero-cta-group">
+            <a href="#wpp" class="btn btn-wpp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-5.824 4.74-10.563 10.564-10.563 5.826 0 10.565 4.74 10.564 10.564 0 5.825-4.739 10.563-10.564 10.563z"/></svg>
+                Analisar minha ideia
+            </a>
+            <span class="hero-note">Sem compromisso · Resposta rápida</span>
+        </div>
+    </div>
+</section>
+
+<!-- FAIXA EDITAIS -->
+<div class="editais-bar">
+    <div class="container">
+        <div class="editais-bar-inner">
+            <span>Aldir Blanc</span><span class="sep">✦</span>
+            <span>Rouanet</span><span class="sep">✦</span>
+            <span>PNAB</span><span class="sep">✦</span>
+            <span>Editais Estaduais e Municipais</span><span class="sep">✦</span>
+            <span>SC e todo o Brasil</span>
+        </div>
+    </div>
+</div>
+
+<!-- DIFERENCIAIS -->
+<section class="features">
+    <div class="container">
+        <div class="features-grid">
+            <div class="feat-item">
+                <div class="feat-circle">✍️</div>
+                <h4>Projeto completo</h4>
+            </div>
+            <div class="feat-item">
+                <div class="feat-circle">💬</div>
+                <h4>Tudo pelo WhatsApp</h4>
+            </div>
+            <div class="feat-item">
+                <div class="feat-circle">🎯</div>
+                <h4>Análise gratuita</h4>
+            </div>
+            <div class="feat-item">
+                <div class="feat-circle">📍</div>
+                <h4>SC e Brasil</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EDITAIS / URGÊNCIA -->
+<section class="editais-sec section-pad" id="editais">
+    <div class="container">
+        <div class="section-header">
+            <h2>Editais abertos agora</h2>
+            <p>Oportunidades reais para transformar sua ideia em projeto financiado.</p>
+        </div>
+
+        <!-- TIMER -->
+        <div class="timer-wrap" id="timer">
+            <div class="t-box"><span id="dias">--</span><small>dias</small></div>
+            <div class="t-box"><span id="horas">--</span><small>horas</small></div>
+            <div class="t-box"><span id="mins">--</span><small>min</small></div>
+            <div class="t-box"><span id="segs">--</span><small>seg</small></div>
+        </div>
+        <p class="timer-label">até o encerramento do edital Meu Primeiro Projeto Cultural (FCC)</p>
+
+        <div class="cards-editais">
+
+            <!-- Card 1: PNAB Três Barras -->
+            <div class="card-edital">
+                <div class="card-edital-header">
+                    <div>
+                        <h3>PNAB – Três Barras</h3>
+                        <span class="scope">📍 Município · Santa Catarina</span>
+                    </div>
+                    <span class="badge">
+                        <span style="display:inline-block;width:6px;height:6px;background:var(--wpp);border-radius:50%;flex-shrink:0;animation:pulse 2s infinite;"></span>
+                        Até 08/07
+                    </span>
+                </div>
+                <div class="valor">R$ 4.279 – R$ 27.500</div>
+                <p class="valor-detalhe">por projeto, conforme categoria</p>
+                <div class="eixos-list">
+                    <div class="eixo-item">
+                        <div class="eixo-top"><span class="eixo-nome">Estruturantes</span><span class="eixo-val"><strong>R$ 27.500</strong> · 2 vagas</span></div>
+                        <div class="eixo-quem"><span>👥</span>Associações, fundações, institutos, cooperativas, empresas</div>
+                    </div>
+                    <div class="eixo-item">
+                        <div class="eixo-top"><span class="eixo-nome">Médio Porte</span><span class="eixo-val"><strong>R$ 14.000</strong> · 4 vagas</span></div>
+                        <div class="eixo-quem"><span>👥</span>MEI, empresas, associações, institutos e cooperativas</div>
+                    </div>
+                    <div class="eixo-item">
+                        <div class="eixo-top"><span class="eixo-nome">Individuais e Coletivos</span><span class="eixo-val"><strong>R$ 7.000</strong> · 6 vagas</span></div>
+                        <div class="eixo-quem"><span>👤</span>Pessoa Física, MEI e coletivos sem CNPJ</div>
+                    </div>
+                    <div class="eixo-item">
+                        <div class="eixo-top"><span class="eixo-nome">Acessibilidade e Inclusão</span><span class="eixo-val"><strong>R$ 8.000</strong> · 1 vaga</span></div>
+                        <div class="eixo-quem"><span>👤</span>Pessoa Física, MEI e coletivos sem CNPJ</div>
+                    </div>
+                    <div class="eixo-item">
+                        <div class="eixo-top"><span class="eixo-nome">Fomento Complementar</span><span class="eixo-val"><strong>R$ 4.279,58</strong> · 1 vaga</span></div>
+                        <div class="eixo-quem"><span>👤</span>Pessoa Física, MEI, PJ e coletivos sem CNPJ</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Meu Primeiro Projeto Cultural -->
+            <div class="card-edital">
+                <div class="card-edital-header">
+                    <div>
+                        <h3>Meu Primeiro Projeto Cultural</h3>
+                        <span class="scope">📍 Estado de SC — FCC</span>
+                    </div>
+                    <span class="badge">Até 13/07</span>
+                </div>
+                <div class="valor">R$ 10.000</div>
+                <p class="valor-detalhe">por projeto · 190 contemplados · apenas novos proponentes</p>
+                <p style="font-size:13px;margin-bottom:16px;line-height:1.6;">Para pessoas físicas, coletivos e PJs que <strong>nunca foram contemplados</strong> pela Fundação Catarinense de Cultura.</p>
+                <div class="tag-row">
+                    <span class="t-tag">Música &amp; Teatro</span>
+                    <span class="t-tag">Artesanato</span>
+                    <span class="t-tag">Oficinas</span>
+                    <span class="t-tag">Audiovisual</span>
+                    <span class="t-tag">Gastronomia</span>
+                    <span class="t-tag">Economia Criativa</span>
+                </div>
+                <div class="card-edital-footer">
+                    <div class="cef-item"><span>✅</span><span>Sem exigência de portfólio extenso — pensado para quem está começando</span></div>
+                    <div class="cef-item"><span>📝</span><span>Inscrição 100% online, direto pelo sistema da FCC</span></div>
+                    <div class="cef-item"><span>⏳</span><span>Recurso liberado em parcela única após aprovação</span></div>
+                </div>
+            </div>
+
+        </div><!-- /cards-editais -->
+
+        <div class="card-destaque">
+            <h3>Não sabe se sua ideia se encaixa?</h3>
+            <p>Oficinas, shows, exposições, artesanato e muitas outras ideias simples já se qualificam para esses editais.</p>
+            <a href="#wpp" class="btn btn-wpp">Verificar minha ideia agora</a>
+        </div>
+
+        <div class="aviso-box">
+            <span style="font-size:18px;flex-shrink:0;margin-top:1px;">ℹ️</span>
+            <p><strong>Importante:</strong> Nosso serviço é de consultoria e escrita do projeto. Não garantimos aprovação no edital — isso depende dos critérios de cada comissão. Nosso trabalho cobre apenas a fase de elaboração e estruturação do texto enviado.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="como section-pad" id="como">
+    <div class="container">
+        <div class="como-inner">
+            <div class="section-header">
+                <h2>Como funciona</h2>
+                <p>Tudo pelo WhatsApp, em quatro etapas simples.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-icon">💬</div>
+                    <div class="step-n">Passo 01</div>
+                    <p>Você conta sua ideia</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">📋</div>
+                    <div class="step-n">Passo 02</div>
+                    <p>Analisamos e orçamos</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">✍️</div>
+                    <div class="step-n">Passo 03</div>
+                    <p>Escrevemos o projeto</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">📄</div>
+                    <div class="step-n">Passo 04</div>
+                    <p>Você recebe em PDF e Word</p>
+                </div>
+            </div>
+            <a href="#wpp" class="btn btn-wpp">Começar agora</a>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq section-pad" id="faq">
+    <div class="container" style="max-width:700px;">
+        <div class="section-header">
+            <h2>Dúvidas frequentes</h2>
+            <p>O que mais perguntam antes de começar.</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Preciso ter o projeto escrito para começar? <i>&#9660;</i></div>
+            <div class="faq-answer"><div class="faq-answer-inner">Não. Basta ter uma ideia: uma oficina, um evento, uma exposição. A gente transforma isso em projeto técnico completo.</div></div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Vocês garantem que o projeto será aprovado? <i>&#9660;</i></div>
+            <div class="faq-answer"><div class="faq-answer-inner">Não. A aprovação depende dos critérios de cada comissão. O que garantimos é que o projeto estará correto, completo e competitivo dentro das exigências do edital.</div></div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Atende editais fora de Santa Catarina? <i>&#9660;</i></div>
+            <div class="faq-answer"><div class="faq-answer-inner">Sim. Somos especializados na Rouanet e Aldir Blanc em SC, mas atendemos editais públicos e privados em todo o Brasil.</div></div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Qual é o valor do serviço? <i>&#9660;</i></div>
+            <div class="faq-answer"><div class="faq-answer-inner">Varia conforme a complexidade do projeto. A análise inicial é gratuita. Apresentamos o orçamento após entender sua ideia, sem compromisso.</div></div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Quanto tempo até eu receber o projeto? <i>&#9660;</i></div>
+            <div class="faq-answer"><div class="faq-answer-inner">Depende da proposta e da proximidade do prazo do edital. O tempo exato é combinado logo no primeiro contato.</div></div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+    <div class="container">
+        <div class="cta-wrap">
+            <h2>Sua ideia tem prazo.<br>Não deixe passar.</h2>
+            <p>Análise gratuita, sem compromisso. Se a ideia existir, a gente estrutura.</p>
+            <a href="#wpp" class="btn btn-wpp" style="font-size:1rem;padding:17px 34px;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-5.824 4.74-10.563 10.564-10.563 5.826 0 10.565 4.74 10.564 10.564 0 5.825-4.739 10.563-10.564 10.563z"/></svg>
+                Iniciar pelo WhatsApp
+            </a>
+            <p class="cta-sub">SC e todo o Brasil · Atendimento personalizado</p>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div style="text-align:center;padding:16px 0 32px;">
+            <div class="foot-logo" style="justify-content:center;margin-bottom:14px;">
+                <span class="grad-text">Hendler</span><span style="color:rgba(255,255,255,.5);">Hub</span>
+            </div>
+            <p style="color:rgba(255,255,255,.5);font-size:14px;max-width:560px;margin:0 auto 20px;line-height:1.7;">Consultoria, estruturação e escrita de projetos para editais como Aldir Blanc, Rouanet e outros, em Santa Catarina e em todo o Brasil.</p>
+            <div class="social-links" style="justify-content:center;">
+                <a href="https://www.instagram.com/hendlerjulia__" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>A aprovação em editais depende dos critérios de cada comissão de seleção.</p>
+            <p>&copy; 2026 Hendler Hub Projetos Culturais. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- FLOAT WPP (desktop) -->
+<a href="#wpp" class="wpp-float" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-5.824 4.74-10.563 10.564-10.563 5.826 0 10.565 4.74 10.564 10.564 0 5.825-4.739 10.563-10.564 10.563z"/></svg>
+</a>
+
+<!-- MOBILE CTA BAR -->
+<div class="mobile-cta-bar">
+    <a href="#wpp" class="btn btn-wpp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-5.824 4.74-10.563 10.564-10.563 5.826 0 10.565 4.74 10.564 10.564 0 5.825-4.739 10.563-10.564 10.563z"/></svg>
+        Falar no WhatsApp
+    </a>
+</div>
+
+<script>
+    // Menu mobile
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    menuBtn.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-item').forEach(item => {
+        item.querySelector('.faq-question').addEventListener('click', () => {
+            const isOpen = item.classList.contains('active');
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+            if (!isOpen) item.classList.add('active');
+        });
+    });
+
+    // Countdown
+    const END = new Date("2026-07-13T23:59:59").getTime();
+    const pad = n => String(n).padStart(2,'0');
+    const pillText = document.getElementById('heroPillText');
+    const tick = () => {
+        const d = END - Date.now();
+        if (d <= 0) {
+            clearInterval(tmr);
+            document.getElementById('timer').innerHTML = "<div class='t-box' style='min-width:auto;padding:14px 24px;'><span style='font-size:15px;'>Encerrado</span></div>";
+            if (pillText) pillText.textContent = "Novos editais em breve — fale com a gente";
+            return;
+        }
+        document.getElementById('dias').textContent  = pad(Math.floor(d/86400000));
+        document.getElementById('horas').textContent = pad(Math.floor((d%86400000)/3600000));
+        document.getElementById('mins').textContent  = pad(Math.floor((d%3600000)/60000));
+        document.getElementById('segs').textContent  = pad(Math.floor((d%60000)/1000));
+    };
+    tick(); const tmr = setInterval(tick,1000);
+
+    // WhatsApp
+    const PHONE = "5547996720706";
+    const MSG = encodeURIComponent(`Olá, Júlia! Gostaria de informações sobre a elaboração de projetos culturais.
+
+Nome:
+Cidade:
+Edital de interesse:
+Área cultural:
+Pretendo me inscrever como:
+( ) Pessoa Física
+( ) MEI
+( ) Associação/Empresa
+( ) Ainda não sei
+
+Minha ideia de projeto:
+`);
+    const WPP = `https://wa.me/${PHONE}?text=${MSG}`;
+    document.querySelectorAll('a[href="#wpp"]').forEach(a => { a.href = WPP; a.target = '_blank'; a.rel = 'noopener noreferrer'; });
+</script>
+</body>
+</html>
